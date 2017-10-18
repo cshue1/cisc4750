@@ -1,0 +1,15 @@
+% 
+% CHRISTINE SHUE
+% DUE: JULY 20, 2017
+% HW 5: Complete the magic(3) square without the use of the magic()
+% function.
+% /u/erdos/students/cshue1/cisc4750/week3/hw4.m
+%
+A = [-1 1 0 1 0 0
+    -1 0 0 0 0 1
+    -1 1 1 0 0 0
+    -1 0 0 1 1 1
+    -1 0 1 0 0 1
+    -1 0 0 1 0 0];
+b = [6;1;9;14;8;3];
+rref([A b])
